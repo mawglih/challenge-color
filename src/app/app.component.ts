@@ -22,7 +22,6 @@ export class AppComponent {
 
   }
   handleChange(value: string) {
-    console.log(value);
     this.text =  value;
     this.success = this.randomText === this.text;
   }
